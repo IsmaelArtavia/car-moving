@@ -1,11 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 .cuadrado {
-  width: 150px;
+  width: 240px;
   height: 100px;
   background: #428bca;
   position: absolute;
-  top: 10px;
+  top: 100px;
   left: 20px;
   right: 0;
   bottom: 0;
@@ -19,8 +19,8 @@
   border-radius: 50%;
   background: #5cb85c;
   position: absolute;
-  top: 110px;
-  left: 20px;
+  top: 190px;
+  left: 40px;
   right: 0;
   bottom: 0;
 }
@@ -33,8 +33,21 @@
   border-radius: 50%;
   background: #5cb85c;
   position: absolute;
-  top: 110px;
-  left: 110px;
+  top: 190px;
+  left: 190px;
+  right: 0;
+  bottom: 0;
+}
+
+.trapecio {
+  width: 200px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid #428bca;
+  position: absolute;
+  top: 10px;
+  left: 40px;
   right: 0;
   bottom: 0;
 }
