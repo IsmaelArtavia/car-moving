@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cuadrado {
+  width: 150px;
+  height: 100px;
+  background: #428bca;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+}
+
+.circulo1 {
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+}
+
+.circulo2 {
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  right: 0;
+  bottom: 0;
+}
