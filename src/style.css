@@ -101,3 +101,27 @@
   right: 0;
   bottom: 0;
 }
+
+.car {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+}
+
+.direccionalTrasera {
+  width: 15px;
+  height: 15px;
+  border: 2px solid red;
+
+  -moz-border-radius: 0 0 100% 0;
+  -webkit-border-radius: 0 0 100% 0;
+  border-radius: 0 0 100% 0;
+  position: absolute;
+  top: 90px;
+  left: -80px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
